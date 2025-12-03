@@ -1,13 +1,19 @@
 import { Text, View, StyleSheet } from "react-native";
 import { Image } from "expo-image";
+import { Link } from "expo-router";
+import COLORS from "../constants/colors";
 
 
 export default function Index() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>My Books</Text>
+      <Link href="/login">Login</Link>
+      <Link href="/login">Signup</Link>
+
       <Image 
-  source={{ uri: "https://images.unsplash.com/photo-1761746555964-54d189e38bfd?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }}
+  source={require("../assets/images/Bookshop.png")}
+    style={{ width: 300, height: 200 }}
 />
     </View>
   );
@@ -22,6 +28,6 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: "bold",
-    color: "blue",
+    color: COLORS.primary,
   },
 });
