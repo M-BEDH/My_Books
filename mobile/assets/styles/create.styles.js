@@ -1,30 +1,30 @@
 // styles/create.styles.js
 //#region Create Style
 import { StyleSheet } from "react-native";
-import  COLOR_BLOSSOM from "../../constants/ COLOR_BLOSSOM";
+import  COLORS from "../../constants/ COLORS";
 
 const styles = StyleSheet.create({
   container: {
     flexGrow: 1,
-    backgroundColor:  COLOR_BLOSSOM.background,
+    backgroundColor:  COLORS.background,
     padding: 16,
   },
   scrollViewStyle: {
     flex: 1,
-    backgroundColor:  COLOR_BLOSSOM.background,
+    backgroundColor:  COLORS.background,
   },
   card: {
-    backgroundColor:  COLOR_BLOSSOM.cardBackground,
+    backgroundColor:  COLORS.cardBackground,
     borderRadius: 16,
     padding: 20,
     marginVertical: 16,
-    shadowColor:  COLOR_BLOSSOM.black,
+    shadowColor:  COLORS.black,
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
     shadowRadius: 8,
     elevation: 3,
     borderWidth: 1,
-    borderColor:  COLOR_BLOSSOM.border,
+    borderColor:  COLORS.border,
   },
   header: {
     alignItems: "center",
@@ -33,12 +33,12 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: "700",
-    color:  COLOR_BLOSSOM.textPrimary,
+    color:  COLORS.textPrimary,
     marginBottom: 8,
   },
   subtitle: {
     fontSize: 14,
-    color:  COLOR_BLOSSOM.textSecondary,
+    color:  COLORS.textSecondary,
     textAlign: "center",
   },
   form: {
@@ -50,16 +50,16 @@ const styles = StyleSheet.create({
   label: {
     fontSize: 14,
     marginBottom: 8,
-    color:  COLOR_BLOSSOM.textPrimary,
+    color:  COLORS.textPrimary,
     fontWeight: "500",
   },
   inputContainer: {
     flexDirection: "row",
     alignItems: "center",
-    backgroundColor:  COLOR_BLOSSOM.inputBackground,
+    backgroundColor:  COLORS.inputBackground,
     borderRadius: 12,
     borderWidth: 1,
-    borderColor:  COLOR_BLOSSOM.border,
+    borderColor:  COLORS.border,
     paddingHorizontal: 12,
   },
   inputIcon: {
@@ -68,25 +68,25 @@ const styles = StyleSheet.create({
   input: {
     flex: 1,
     height: 48,
-    color:  COLOR_BLOSSOM.textDark,
+    color:  COLORS.textDark,
   },
   textArea: {
-    backgroundColor:  COLOR_BLOSSOM.inputBackground,
+    backgroundColor:  COLORS.inputBackground,
     borderRadius: 12,
     borderWidth: 1,
-    borderColor:  COLOR_BLOSSOM.border,
+    borderColor:  COLORS.border,
     padding: 12,
     height: 100,
-    color:  COLOR_BLOSSOM.textDark,
+    color:  COLORS.textDark,
   },
   ratingContainer: {
     flexDirection: "row",
     justifyContent: "space-around",
     alignItems: "center",
-    backgroundColor:  COLOR_BLOSSOM.inputBackground,
+    backgroundColor:  COLORS.inputBackground,
     borderRadius: 12,
     borderWidth: 1,
-    borderColor:  COLOR_BLOSSOM.border,
+    borderColor:  COLORS.border,
     padding: 8,
   },
   starButton: {
@@ -95,10 +95,10 @@ const styles = StyleSheet.create({
   imagePicker: {
     width: "100%",
     height: 200,
-    backgroundColor:  COLOR_BLOSSOM.inputBackground,
+    backgroundColor:  COLORS.inputBackground,
     borderRadius: 12,
     borderWidth: 1,
-    borderColor:  COLOR_BLOSSOM.border,
+    borderColor:  COLORS.border,
     overflow: "hidden",
   },
   previewImage: {
@@ -112,25 +112,25 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   placeholderText: {
-    color:  COLOR_BLOSSOM.textSecondary,
+    color:  COLORS.textSecondary,
     marginTop: 8,
   },
   button: {
-    backgroundColor:  COLOR_BLOSSOM.primary,
+    backgroundColor:  COLORS.primary,
     borderRadius: 12,
     height: 50,
     flexDirection: "row",
     justifyContent: "center",
     alignItems: "center",
     marginTop: 16,
-    shadowColor:  COLOR_BLOSSOM.black,
+    shadowColor:  COLORS.black,
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
     shadowRadius: 4,
     elevation: 2,
   },
   buttonText: {
-    color:  COLOR_BLOSSOM.white,
+    color:  COLORS.white,
     fontSize: 16,
     fontWeight: "600",
   },

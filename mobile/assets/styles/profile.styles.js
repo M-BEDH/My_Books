@@ -1,12 +1,12 @@
 //#region Profile Style
 // styles/profile.styles.js
 import { StyleSheet } from "react-native";
-import  COLOR_BLOSSOM from "../../constants/ COLOR_BLOSSOM";
+import  COLORS from "../../constants/ COLORS";
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor:  COLOR_BLOSSOM.background,
+    backgroundColor:  COLORS.background,
     padding: 16,
     paddingBottom: 0,
   },
@@ -14,22 +14,22 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor:  COLOR_BLOSSOM.background,
+    backgroundColor:  COLORS.background,
   },
   profileHeader: {
     flexDirection: "row",
     alignItems: "center",
-    backgroundColor:  COLOR_BLOSSOM.cardBackground,
+    backgroundColor:  COLORS.cardBackground,
     borderRadius: 16,
     padding: 16,
     marginBottom: 16,
-    shadowColor:  COLOR_BLOSSOM.black,
+    shadowColor:  COLORS.black,
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
     shadowRadius: 8,
     elevation: 3,
     borderWidth: 1,
-    borderColor:  COLOR_BLOSSOM.border,
+    borderColor:  COLORS.border,
   },
   profileImage: {
     width: 80,
@@ -43,34 +43,34 @@ const styles = StyleSheet.create({
   username: {
     fontSize: 20,
     fontWeight: "700",
-    color:  COLOR_BLOSSOM.textPrimary,
+    color:  COLORS.textPrimary,
     marginBottom: 4,
   },
   email: {
     fontSize: 14,
-    color:  COLOR_BLOSSOM.textSecondary,
+    color:  COLORS.textSecondary,
     marginBottom: 4,
   },
   memberSince: {
     fontSize: 12,
-    color:  COLOR_BLOSSOM.textSecondary,
+    color:  COLORS.textSecondary,
   },
   logoutButton: {
-    backgroundColor:  COLOR_BLOSSOM.primary,
+    backgroundColor:  COLORS.primary,
     borderRadius: 12,
     padding: 12,
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "center",
     marginBottom: 24,
-    shadowColor:  COLOR_BLOSSOM.black,
+    shadowColor:  COLORS.black,
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
     shadowRadius: 4,
     elevation: 2,
   },
   logoutText: {
-    color:  COLOR_BLOSSOM.white,
+    color:  COLORS.white,
     fontWeight: "600",
     marginLeft: 8,
   },
@@ -83,28 +83,28 @@ const styles = StyleSheet.create({
   booksTitle: {
     fontSize: 18,
     fontWeight: "700",
-    color:  COLOR_BLOSSOM.textPrimary,
+    color:  COLORS.textPrimary,
   },
   booksCount: {
     fontSize: 14,
-    color:  COLOR_BLOSSOM.textSecondary,
+    color:  COLORS.textSecondary,
   },
   booksList: {
     paddingBottom: 20,
   },
   bookItem: {
     flexDirection: "row",
-    backgroundColor:  COLOR_BLOSSOM.cardBackground,
+    backgroundColor:  COLORS.cardBackground,
     borderRadius: 12,
     padding: 12,
     marginBottom: 12,
-    shadowColor:  COLOR_BLOSSOM.black,
+    shadowColor:  COLORS.black,
     shadowOffset: { width: 0, height: 1 },
     shadowOpacity: 0.1,
     shadowRadius: 4,
     elevation: 2,
     borderWidth: 1,
-    borderColor:  COLOR_BLOSSOM.border,
+    borderColor:  COLORS.border,
   },
   bookImage: {
     width: 70,
@@ -119,7 +119,7 @@ const styles = StyleSheet.create({
   bookTitle: {
     fontSize: 16,
     fontWeight: "600",
-    color:  COLOR_BLOSSOM.textPrimary,
+    color:  COLORS.textPrimary,
     marginBottom: 4,
   },
   ratingContainer: {
@@ -128,13 +128,13 @@ const styles = StyleSheet.create({
   },
   bookCaption: {
     fontSize: 14,
-    color:  COLOR_BLOSSOM.textDark,
+    color:  COLORS.textDark,
     marginBottom: 4,
     flex: 1,
   },
   bookDate: {
     fontSize: 12,
-    color:  COLOR_BLOSSOM.textSecondary,
+    color:  COLORS.textSecondary,
   },
   deleteButton: {
     padding: 8,
@@ -149,24 +149,24 @@ const styles = StyleSheet.create({
   emptyText: {
     fontSize: 16,
     fontWeight: "600",
-    color:  COLOR_BLOSSOM.textPrimary,
+    color:  COLORS.textPrimary,
     marginTop: 16,
     marginBottom: 20,
     textAlign: "center",
   },
   addButton: {
-    backgroundColor:  COLOR_BLOSSOM.primary,
+    backgroundColor:  COLORS.primary,
     borderRadius: 12,
     paddingVertical: 12,
     paddingHorizontal: 20,
-    shadowColor:  COLOR_BLOSSOM.black,
+    shadowColor:  COLORS.black,
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
     shadowRadius: 4,
     elevation: 2,
   },
   addButtonText: {
-    color:  COLOR_BLOSSOM.white,
+    color:  COLORS.white,
     fontWeight: "600",
     fontSize: 14,
   },

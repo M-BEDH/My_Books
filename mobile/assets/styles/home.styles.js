@@ -1,18 +1,18 @@
 //#region Home Style
 // styles/home.styles.js
 import { StyleSheet } from "react-native";
-import  COLOR_BLOSSOM from "../../constants/ COLOR_BLOSSOM";
+import  COLORS from "../../constants/ COLORS";
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor:  COLOR_BLOSSOM.background,
+    backgroundColor:  COLORS.background,
   },
   loadingContainer: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor:  COLOR_BLOSSOM.background,
+    backgroundColor:  COLORS.background,
   },
   listContainer: {
     padding: 16,
@@ -26,26 +26,26 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontFamily: "JetBrainsMono-Medium",
     letterSpacing: 0.5,
-    color:  COLOR_BLOSSOM.primary,
+    color:  COLORS.primary,
     marginBottom: 8,
   },
   headerSubtitle: {
     fontSize: 14,
-    color:  COLOR_BLOSSOM.textSecondary,
+    color:  COLORS.textSecondary,
     textAlign: "center",
   },
   bookCard: {
-    backgroundColor:  COLOR_BLOSSOM.cardBackground,
+    backgroundColor:  COLORS.cardBackground,
     borderRadius: 16,
     marginBottom: 20,
     padding: 16,
-    shadowColor:  COLOR_BLOSSOM.black,
+    shadowColor:  COLORS.black,
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
     shadowRadius: 8,
     elevation: 3,
     borderWidth: 1,
-    borderColor:  COLOR_BLOSSOM.border,
+    borderColor:  COLORS.border,
   },
   bookHeader: {
     flexDirection: "row",
@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
   username: {
     fontSize: 15,
     fontWeight: "600",
-    color:  COLOR_BLOSSOM.textPrimary,
+    color:  COLORS.textPrimary,
   },
   bookImageContainer: {
     width: "100%",
@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     overflow: "hidden",
     marginBottom: 12,
-    backgroundColor:  COLOR_BLOSSOM.border,
+    backgroundColor:  COLORS.border,
   },
   bookImage: {
     width: "100%",
@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
   bookTitle: {
     fontSize: 18,
     fontWeight: "700",
-    color:  COLOR_BLOSSOM.textPrimary,
+    color:  COLORS.textPrimary,
     marginBottom: 6,
   },
   ratingContainer: {
@@ -95,13 +95,13 @@ const styles = StyleSheet.create({
   },
   caption: {
     fontSize: 14,
-    color:  COLOR_BLOSSOM.textDark,
+    color:  COLORS.textDark,
     marginBottom: 8,
     lineHeight: 20,
   },
   date: {
     fontSize: 12,
-    color:  COLOR_BLOSSOM.textSecondary,
+    color:  COLORS.textSecondary,
   },
   emptyContainer: {
     alignItems: "center",
@@ -112,13 +112,13 @@ const styles = StyleSheet.create({
   emptyText: {
     fontSize: 18,
     fontWeight: "600",
-    color:  COLOR_BLOSSOM.textPrimary,
+    color:  COLORS.textPrimary,
     marginTop: 16,
     marginBottom: 8,
   },
   emptySubtext: {
     fontSize: 14,
-    color:  COLOR_BLOSSOM.textSecondary,
+    color:  COLORS.textSecondary,
     textAlign: "center",
   },
   footerLoader: {
