@@ -1,5 +1,5 @@
 //#region COLOR FOREST
- const FOREST = {
+ const COLORS = {
      primary: "#4CAF50",
      textPrimary: "#2e5a2e",
      textSecondary: "#688f68",
@@ -50,7 +50,7 @@
   
 //#region COLOR BLOSSOM
   
-  const COLORS = {
+  const BLOSSOM = {
     primary: "#EC407A", 
     textPrimary: "#7d2150", 
     textSecondary: "#b06a8f", 
