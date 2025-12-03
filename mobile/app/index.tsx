@@ -8,8 +8,9 @@ export default function Index() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>My Books</Text>
-      <Link href="/login">Login</Link>
-      <Link href="/login">Signup</Link>
+
+      <Link style={styles.link} href="/auth">Connexion </Link>
+      <Link style={styles.link} href="/auth/signup">Inscription</Link>
 
       <Image 
   source={require("../assets/images/Bookshop.png")}
@@ -26,8 +27,16 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   title: {
-    fontSize: 24,
+    fontSize: 32,
     fontWeight: "bold",
     color: COLORS.primary,
+  },
+  link: {
+    fontSize: 18,
+    color: COLORS.textPrimary,
+    marginVertical: 8,
+    backgroundColor: COLORS.background,
+    padding: 10,
+    borderRadius: 10,
   },
 });
