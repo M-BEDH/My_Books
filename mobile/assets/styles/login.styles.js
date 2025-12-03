@@ -1,50 +1,61 @@
-// styles/create.styles.js
-//#region Create Style
-import { StyleSheet } from "react-native";
+//#region Login Style
+// styles/login.styles.js
+import { StyleSheet, Dimensions } from "react-native";
 import  COLOR_BLOSSOM from "../../constants/ COLOR_BLOSSOM";
+
+const { width } = Dimensions.get("window");
 
 const styles = StyleSheet.create({
   container: {
     flexGrow: 1,
     backgroundColor:  COLOR_BLOSSOM.background,
-    padding: 16,
+    padding: 20,
+    justifyContent: "center",
   },
   scrollViewStyle: {
     flex: 1,
     backgroundColor:  COLOR_BLOSSOM.background,
   },
+  topIllustration: {
+    alignItems: "center",
+    width: "100%",
+  },
+  illustrationImage: {
+    width: width * 0.75,
+    height: width * 0.75,
+  },
   card: {
     backgroundColor:  COLOR_BLOSSOM.cardBackground,
     borderRadius: 16,
-    padding: 20,
-    marginVertical: 16,
+    padding: 24,
     shadowColor:  COLOR_BLOSSOM.black,
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
     shadowRadius: 8,
-    elevation: 3,
-    borderWidth: 1,
+    elevation: 4,
+    borderWidth: 2,
     borderColor:  COLOR_BLOSSOM.border,
+    marginTop: -24,
   },
   header: {
     alignItems: "center",
     marginBottom: 24,
   },
   title: {
-    fontSize: 24,
+    fontSize: 32,
     fontWeight: "700",
     color:  COLOR_BLOSSOM.textPrimary,
     marginBottom: 8,
   },
   subtitle: {
-    fontSize: 14,
+    fontSize: 16,
     color:  COLOR_BLOSSOM.textSecondary,
     textAlign: "center",
   },
-  form: {
+  formContainer: {
     marginBottom: 16,
   },
-  formGroup: {
+  inputGroup: {
     marginBottom: 20,
   },
   label: {
@@ -70,56 +81,13 @@ const styles = StyleSheet.create({
     height: 48,
     color:  COLOR_BLOSSOM.textDark,
   },
-  textArea: {
-    backgroundColor:  COLOR_BLOSSOM.inputBackground,
-    borderRadius: 12,
-    borderWidth: 1,
-    borderColor:  COLOR_BLOSSOM.border,
-    padding: 12,
-    height: 100,
-    color:  COLOR_BLOSSOM.textDark,
-  },
-  ratingContainer: {
-    flexDirection: "row",
-    justifyContent: "space-around",
-    alignItems: "center",
-    backgroundColor:  COLOR_BLOSSOM.inputBackground,
-    borderRadius: 12,
-    borderWidth: 1,
-    borderColor:  COLOR_BLOSSOM.border,
+  eyeIcon: {
     padding: 8,
-  },
-  starButton: {
-    padding: 8,
-  },
-  imagePicker: {
-    width: "100%",
-    height: 200,
-    backgroundColor:  COLOR_BLOSSOM.inputBackground,
-    borderRadius: 12,
-    borderWidth: 1,
-    borderColor:  COLOR_BLOSSOM.border,
-    overflow: "hidden",
-  },
-  previewImage: {
-    width: "100%",
-    height: "100%",
-  },
-  placeholderContainer: {
-    width: "100%",
-    height: "100%",
-    justifyContent: "center",
-    alignItems: "center",
-  },
-  placeholderText: {
-    color:  COLOR_BLOSSOM.textSecondary,
-    marginTop: 8,
   },
   button: {
     backgroundColor:  COLOR_BLOSSOM.primary,
     borderRadius: 12,
     height: 50,
-    flexDirection: "row",
     justifyContent: "center",
     alignItems: "center",
     marginTop: 16,
@@ -134,8 +102,18 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "600",
   },
-  buttonIcon: {
-    marginRight: 8,
+  footer: {
+    flexDirection: "row",
+    justifyContent: "center",
+    marginTop: 24,
+  },
+  footerText: {
+    color:  COLOR_BLOSSOM.textSecondary,
+    marginRight: 5,
+  },
+  link: {
+    color:  COLOR_BLOSSOM.primary,
+    fontWeight: "600",
   },
 });
 

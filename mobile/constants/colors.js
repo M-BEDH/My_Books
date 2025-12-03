@@ -50,7 +50,7 @@
   
 //#region COLOR BLOSSOM
   
-  const BLOSSOM = {
+  const COLOR_BLOSSOM = {
     primary: "#EC407A", 
     textPrimary: "#7d2150", 
     textSecondary: "#b06a8f", 
@@ -65,4 +65,4 @@
   };
     //#endregion
 
-  export default COLORS;
+  export default  COLOR_BLOSSOM;
